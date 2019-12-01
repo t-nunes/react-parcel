@@ -2,6 +2,39 @@
   "name": "react-parcel",
   "version": "1.0.0",
   "description": "A starter react using parcel2",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "src/index.jsx",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "polished": "^3.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "routes": "^2.1.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "babel-plugin-styled-components": "^1.10.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1",
+    "sass": "^1.23.7"
+  }
 }

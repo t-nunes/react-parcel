@@ -1,0 +1,10 @@
+# System Files
+.DS_Store
+
+# Project
+.cache
+.vscode
+dist
+node_modules
+*.lock
+yarn-*
