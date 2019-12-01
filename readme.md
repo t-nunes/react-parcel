@@ -3,5 +3,15 @@
 I made this repository with the intention of testing parcel
 
 ```shell
-yarn && yarn start
+# clone repo SSH
+git clone git@github.com:t-nunes/react-parcel.git
+
+# or HTTPS
+git clone https://github.com/t-nunes/react-parcel.git
+
+# install dependencies
+yarn
+
+# start project
+yarn start
 ```
