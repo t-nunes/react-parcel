@@ -1,0 +1,7 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "A starter react using parcel2",
+  "main": "index.js",
+  "license": "MIT"
+}
